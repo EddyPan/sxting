@@ -217,7 +217,7 @@ var MusicPlayer = {
 			PlayAutoControl.palyStatus = Constant.PlayStatus.PLAYING;
 			chrome.browserAction.setIcon({ path:"img/paly.png" });
 		}
-	}, 
+	},
 	pause: function() {
 		if (MusicPlayer.audio.isInitial && !MusicPlayer.audio.paused) {
 			MusicPlayer.audio.pause();
@@ -404,7 +404,6 @@ $(function() {
 	chrome.extension.onRequest.addListener(
 		function(request, sender, sendResponse) {
 			console.log(sender.tab ? "from a content script:" + sender.tab.url : "from the extension");
-			
 			
 			switch (Math.ceil(request.requestFromPopup)){
 				case Constant.CMD.PLAY:
