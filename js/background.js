@@ -217,7 +217,7 @@ var MusicPlayer = {
 			PlayAutoControl.palyStatus = Constant.PlayStatus.PLAYING;
 			chrome.browserAction.setIcon({ path:"img/paly.png" });
 		}
-	},
+	}, 
 	pause: function() {
 		if (MusicPlayer.audio.isInitial && !MusicPlayer.audio.paused) {
 			MusicPlayer.audio.pause();
