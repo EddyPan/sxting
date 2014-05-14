@@ -1,0 +1,232 @@
+html,body,ul,li {
+	margin:0;
+	padding:0;
+	border:0
+}
+html, body { 
+overflow-x:hidden;
+overflow-y:hidden;
+} 
+body {
+	background-color: #555;
+	/*background-image: url(../img/background.jpg);*/
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 14px;
+	line-height: 22px;
+	color: #333;
+	width: 300px;
+	height: 450px;
+	-webkit-text-size-adjust: none;
+}
+body * {
+	text-shadow: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+	color: #fff;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+h1, h2, h3 {
+	font-size: 18px;
+}
+h4, h5, h6
+{
+	font-size: 16px;
+}
+p
+{
+	margin: 0 0 10px 0;
+}
+a, a:link, a:active, a:visited, a:hover
+{
+	color: #333;
+	text-decoration: underline;
+}
+pre
+{
+	font-size: 12px;
+	width: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+#page nav
+{
+	display: none;
+}
+
+#header,
+.header {
+	background: #555;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 50px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+#header a,
+.header a
+{
+	background: center center no-repeat transparent;
+	background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+#header a.friends,
+.header a.friends
+{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVNJREFUeNq01jFLAzEYxvH2UBCxiIiDUhzcdXCyIk5ufgUXLR37JdxcXBxcuwmOOtml0EKpo04iWIpIQREVEVFLjf9AhoC9e3O5uxd+lMLdPU1yedO8UiqXdQWO122ghi4+8IwGqiiId+uRCHbxqsLrFHNRz5ACSnhTch1EPScQpnIH0w7TWcGiz5rouS45rtkMVnxCJrAQ4yUq+oT8YhAjZOAT8oWHGCE9nxC9H64cA15w4xOiW0HbfErVNhvUa8c3cecQcoZv3xA9z+fCNbe4SNq7jvEUMaUnuE/au7SjkHbSR1G637ULh73Kn+gn7cIBttELGckQh9Jo8iMOrSksYx2b2MKk8FuvUUcHl/9GbiWuooYu3pVf/eARLZQxbp8na2YR0659e+HLmM/geN+z98lSRv8hZu2QQkYh+kzKjZkvHdPahymH6DNp5Cucev0JMAAkKj0NEoYBJwAAAABJRU5ErkJggg==);
+}
+#header a.right,
+.header a.right {
+	left: auto;
+	right: 10px;
+}
+#footer {
+	border-top: 1px solid #555;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 50px;
+	margin-top: 15px;
+}
+#footer:hover{
+	color: rgba(0, 255, 0, 0.5);
+}
+#content,
+.content
+{
+	padding: 20px;
+}
+.center {
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+}
+.margin-top30 {
+	margin-top: 30px;
+}
+
+
+img {
+  vertical-align: middle;
+}
+.img-rounded {
+  border-radius: 6px;
+	width: 150px; 
+	height: 150px;
+	opacity: 1;
+}
+.img-circle {
+border-radius: 50%;
+}
+
+.thumbnail {
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.428571429;
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+	display: block;
+	max-width: 100%;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+	border-color: #428bca;
+}
+.thumbnail .caption {
+	padding: 9px;
+	color: #333333;
+}
+.playerpanel-ctrl {
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	border-radius: 4px;
+	width:55px;
+	height:55px;
+	margin: 10px 5px;
+	float: left;
+}
+.playerpanel-ctrl > .glyphicon-heart {
+	color: #f00;
+}
+.playerpanel-ctrl:hover{
+	border-color: #428bca;
+}
+.playerpanel-ctrl-item {
+	color: #CEC8A4;
+	font-size: 3em;
+	display: block;
+	padding-top: 4px;
+	margin: auto auto;
+}
+#loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+#loading > img{
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	margin: 0 auto;
+	z-index: 9999;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-save:before {
+  content: "\e166";
+}
+.glyphicon-play:before {
+  content: "\e072";
+}
+.glyphicon-pause:before {
+  content: "\e073";
+}
+.glyphicon-fast-forward:before {
+  content: "\e076";
+}
+.glyphicon-heart-empty:before {
+  content: "\e143";
+}
+.glyphicon-heart:before {
+  content: "\e005";
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="index">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta name="author" content="www.frebsite.nl" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+	<title>随心听</title>
+	<link type="text/css" rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/demo.css" />
+	<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</head>
+<body>
+
+	<nav id="menu">
+		<ul>
+			<li id="private"><a href="#">私人频道</a></li>
+			<li id="lovesongs"><a href="#">红心频道</a></li>
+		</ul>
+	</nav>
+
+	<div id="loading" style="display: none;">
+		<img src="img/ajax-loader.gif">
+	</div>
+
+	<div data-role="page">
+		<div class="header">
+			<a href="#menu" data-ajax="false"></a>
+			<p id="channel-name">频道</p>
+		</div>
+
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="center margin-top30">
+				<a id="playerpanel-songpic" href="#" class="thumbnail">
+					<img class="img-circle" alt="Song Picture" src="img/songpic.png">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="center">
+				<div>
+					<div id="playerpanel-songinfo-wraps" class="marque-wrap">
+						<h2 id="song-name">未知</h2>
+						<h4 id="artist-name">未知</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="center">
+				<div class="playerpanel-ctrl"><span id="playerpanel-ctrl-save" class="glyphicon glyphicon-save playerpanel-ctrl-item"</span></div>
+				<div class="playerpanel-ctrl"><span id="playerpanel-ctrl-play" class="glyphicon glyphicon-play playerpanel-ctrl-item"></span></div>
+				<div class="playerpanel-ctrl"><span id="playerpanel-ctrl-skip" class="glyphicon glyphicon-fast-forward playerpanel-ctrl-item"></span></div>
+				<div class="playerpanel-ctrl"><span id="playerpanel-ctrl-love" class="glyphicon glyphicon-heart-empty playerpanel-ctrl-item"></span></div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<p>Powered by xpan</p>
+		</div>
+	</div>
+
+</body>
+</html>
